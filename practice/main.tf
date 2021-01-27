@@ -1,3 +1,9 @@
+
+provider "azurerm" {
+  version = "=2.18.0"
+  features {}
+}
+
 resource "azurerm_resource_group" "example" {
   name     = "info_test_rg"
   location = "West Europe"
